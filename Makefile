@@ -19,9 +19,9 @@ clean:
 	if [ -a last-737 ]; then rm -rf last-737; fi;
 	if [ -a bwa-0.7.12 ]; then rm -rf bwa-0.7.12; fi;
 	if [ -a __MACOSX ]; then rm -rf __MACOSX; fi;
-	if [ -a d1 ]; then rm -rf d1; fi;
-	if [ -a d2 ]; then rm -rf d2; fi;
-	if [ -a d3 ]; then rm -rf d3; fi;
+	if [ -a D1 ]; then rm -rf D1; fi;
+	if [ -a D2 ]; then rm -rf D2; fi;
+	if [ -a D3 ]; then rm -rf D3; fi;
 
 libraries:
 	#- xcode tools (includes Clang, git), - Homebrew, - libz, libgsl
